@@ -1,0 +1,17 @@
+{
+  "name": "noita-bartender-images",
+  "compatibility_date": "2025-06-23",
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "assets": {
+    "directory": "./public"
+  },
+  "routes": [
+    {
+      "pattern": "noita-bartender-images.acidflow.stream",
+      "custom_domain": true
+    }
+  ]
+}
